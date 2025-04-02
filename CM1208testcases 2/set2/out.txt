@@ -1,0 +1,26 @@
+Positive entries: 43
+Average angle: 64.74
+Shopping cart: 4 6 7 9 
+Item: 4; match: 10; angle: 47.87
+Item: 6; match: 1; angle: 47.87
+Item: 7; match: 1; angle: 43.09
+Item: 9; match: 10; angle: 60.00
+Recommend: 1 10 
+Shopping cart: 2 
+Item: 2; match: 10; angle: 26.57
+Recommend: 10 
+Shopping cart: 1 3 5 6 7 
+Item: 1; match: 8; angle: 39.23
+Item: 3; match: 8; angle: 58.91
+Item: 5; match: 9; angle: 69.30
+Item: 6; match: 4; angle: 47.87
+Item: 7; match: 8; angle: 45.00
+Recommend: 8 4 9 
+Shopping cart: 5 6 
+Item: 5; match: 9; angle: 69.30
+Item: 6; match: 1; angle: 47.87
+Recommend: 1 9 
+Shopping cart: 2 4 
+Item: 2; match: 10; angle: 26.57
+Item: 4; match: 6; angle: 47.87
+Recommend: 10 6 

@@ -1,0 +1,54 @@
+Positive entries: 3983
+Average angle: 66.59
+Shopping cart: 37 47 50 85 
+Item: 37; match: 9; angle: 56.91
+Item: 47; match: 72; angle: 54.70
+Item: 50; match: 77; angle: 60.78
+Item: 85; match: 89; angle: 56.13
+Recommend: 72 89 9 77 
+Shopping cart: 42 82 
+Item: 42; match: 98; angle: 56.44
+Item: 82; match: 12; angle: 58.06
+Recommend: 98 12 
+Shopping cart: 24 50 74 
+Item: 24; match: 29; angle: 57.44
+Item: 50; match: 77; angle: 60.78
+Item: 74; match: 41; angle: 51.61
+Recommend: 41 29 77 
+Shopping cart: 16 34 
+Item: 16; match: 37; angle: 57.07
+Item: 34; match: 55; angle: 55.50
+Recommend: 55 37 
+Shopping cart: 18 27 42 43 
+Item: 18; match: 41; angle: 54.58
+Item: 27; match: 70; angle: 55.96
+Item: 42; match: 98; angle: 56.44
+Item: 43; match: 57; angle: 57.34
+Recommend: 41 70 98 57 
+Shopping cart: 3 7 18 30 
+Item: 3; match: 61; angle: 54.81
+Item: 7; match: 90; angle: 58.13
+Item: 18; match: 41; angle: 54.58
+Item: 30; match: 13; angle: 57.74
+Recommend: 41 61 13 90 
+Shopping cart: 1 29 67 86 
+Item: 1; match: 6; angle: 58.44
+Item: 29; match: 46; angle: 50.67
+Item: 67; match: 57; angle: 55.41
+Item: 86; match: 100; angle: 54.05
+Recommend: 46 100 57 6 
+Shopping cart: 21 30 34 37 95 
+Item: 21; match: 64; angle: 56.69
+Item: 30; match: 13; angle: 57.74
+Item: 34; match: 55; angle: 55.50
+Item: 37; match: 9; angle: 56.91
+Item: 95; match: 63; angle: 57.99
+Recommend: 55 64 9 13 63 
+Shopping cart: 33 
+Item: 33; match: 15; angle: 59.15
+Recommend: 15 
+Shopping cart: 18 80 93 
+Item: 18; match: 41; angle: 54.58
+Item: 80; match: 49; angle: 55.71
+Item: 93; match: 72; angle: 54.62
+Recommend: 41 72 49 
