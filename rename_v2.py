@@ -24,8 +24,8 @@ def vector_editor(vectors, item_id, customer_id):
     vectors[item_id - 1, customer_id - 1] = 1 # Subtract 1 to account for zero-based indexing
     return vectors
 
-def history_file_processor ():
-    history = open ("history.txt", "r")
+def history_file_processor():
+    history = open("history.txt", "r")
     number_of_customers, number_of_items, number_of_transactions = map(int, history.readline().split())
     vectors = vector_generator(number_of_items, number_of_customers)
 
@@ -39,20 +39,33 @@ def history_file_processor ():
 def calc_angle(x, y):
     norm_x = np.linalg.norm(x)
     norm_y = np.linalg.norm(y)
+    if norm_x == 0 or norm_y == 0:  # Avoid division by zero
+        return np.nan
     cos_theta = np.dot(x, y) / (norm_x * norm_y)
     theta = math.degrees(math.acos(cos_theta))
     return theta
 
 def angle_calculator(vectors):
-    for i in range(vectors.shape[0]):
-        for j in range(vectors.shape[0]):
+    num_items = vectors.shape[0]
+    angle_array = np.full((num_items, num_items), np.nan)  # Initialize with NaN
 
-            calc_angle(i, j)
-            
+    for i in range(num_items):
+        for j in range(i + 1, num_items):  # Only calculate for upper triangle
+            angle = calc_angle(vectors[i], vectors[j])
+            if 0 <= angle <= 90.0:  # Only store angles in the range [0, 90]
+                angle_array[i, j] = angle
+                angle_array[j, i] = angle  # Symmetric
+
+    return angle_array
 
 def main():
     vectors = history_file_processor()
+    print("Vectors:")
     print(vectors)
+
+    angle_array = angle_calculator(vectors)
+    print("\nAngle Array:")
+    print(angle_array)
 
 if __name__ == "__main__":
     main()
